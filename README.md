@@ -1,4 +1,4 @@
-# css-ratio [demo on codepen](http://codepen.io/entozoon/pen/yywxRz?editors=110 )
+# css-ratio [(demo)](http://codepen.io/entozoon/pen/yywxRz?editors=110 )
 
 A simple CSS trick to let you give any block element a height that will keep it's given ratio responsively.
 
