@@ -21,11 +21,17 @@ If you wanted 4:3, you would use padding-bottom: 75%;
 
 
 Here are some common examples:
+
 1:1  - padding-bottom: 100%;
+
 4:3  - padding-bottom: 75%;
+
 16:9 - padding-bottom: 56.25%;
+
 3:2  - padding-bottom: 66.667%;
+
 21:9 - padding-bottom: 42.857%;
+
 3:1  - padding-bottom: 33.333%;
 
 ### Sass Mixin
