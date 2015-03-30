@@ -1,0 +1,38 @@
+
+.ratio {
+	background-image: url(../images/waah.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center top;
+
+	height: 0;
+	padding-bottom: 56.25%; /* 16:9 */
+
+	/* IE8 Support */
+	background-image: none!important\9;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/waah.jpg',sizingMethod='scale');
+}
+
+.ratio--abs {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+
+
+
+/* Styles just for the aesthetic sake of this example */
+body {
+	margin: 0 auto;
+	position: relative;
+	max-width: 800px;
+	padding-bottom: 480px;
+	font-family: verdana;
+}
+.ratio--abs {
+	color: white;
+	font-size: 24px;
+}

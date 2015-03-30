@@ -1,0 +1,19 @@
+<!DOCTYPE html><html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/css-ratio.css" />
+</head>
+<body>
+
+	<div class="ratio"></div>
+	<p>No matter what width this element is, or it's container, the height will always be right for ratio - in this case, 16:9<br />So you can use a background-image instead of an &lt;img&gt; element, with a responsive height.</p>
+	<p>(It even supports IE8 using, a filter)</p>
+
+	<br /><br />
+
+	<div class="ratio" style="background-image:url(images/doop.jpg); filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/doop.jpg',sizingMethod='scale')"></div>
+	<p>This is a more practical example with IE8 support; allowing the CMS to load in whatever image is required, within the markup.</p>
+
+	<div class="ratio ratio--abs">This element is absolute positioned to the bottom of the page</div>
+
+</body>
+</html>

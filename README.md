@@ -9,4 +9,4 @@ Any modern browser
 IE8 - if you use the provided filter
 
 ### Usage
-Have a look at the examples in this repository or see this [demo on codepen](http://codepen.io/entozoon/pen/yywxRz?editors=110 )
+Have a look at the examples in this repository or see this [demo on codepen](http://codepen.io/entozoon/pen/yywxRz?editors=110 ).
